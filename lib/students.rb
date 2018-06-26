@@ -9,7 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  "SELECT gpa FROM students ORDER BY gpa;"
+  "SELECT AVG(gpa) AS average FROM students;"
 end
 
 def total_tardies_for_all_students
